@@ -65,7 +65,7 @@
                     <p class="clinic">Косметологічна клініка</p>
                     <h1 class="hero-title" lang="en">Beauty<br>Zone</h1>
 
-                    <button class="button modal-button-open" type="button">
+                    <button class="button modal-btn-open" type="button">
                         Замовити дзвінок
                     </button>
 
@@ -150,43 +150,87 @@
         </section>
 
         <!-- Services -->
-        <section id="services-section">
+        <section class="services-section section" id="services-section">
             <div class="container">
-                <h2 class="title-section-centred">Наші <span class="accent">процедури</span></h2>
+                <h2 class="services-section__title section__title section__title--centered">Наші <span class="accent">процедури</span></h2>
 
-                <div class="services-container">
-
-                    <button class="carousel-button" type="button" aria-label="Попередній">
-                        <svg width="32" height="32">
+                <div class="services-section__slider">
+                    <button class="services-section__button carousel-button prev" type="button">
+                        <svg width="16" height="16">
                             <use href="./photo/carusel-button.svg"></use>
                         </svg>
                     </button>
+                    <div class="services-section__container swiper-container">
+                        <ul class="services-section__list swiper-wrapper">
+                            <li class="swiper-slide">
+                                <article class="services-card">
+                                    <img class="services-card__image" src="./photo/Makeup1.jpg"
+                                        alt="Маски для обличчя" />
+                                    <h3 class="services-card__title" lang="eu">Маски<br>для обличчя</h3>
+                                    <div class="services-card__text">
+                                    </div>
+                                </article>
+                            </li>
 
-                    <ul class="services-list">
-                        <li class="services-items">
-                            <article class="services-card-1">
-                                <p class="services-text">Маски<br>для обличчя</p>
-                            </article>
-                        </li>
+                            <li class="swiper-slide">
+                                <article class="services-card">
+                                    <img class="services-card__image" src="./photo/Makeup2.jpg" 
+                                        alt="Ін'єкції для обличчя" />
+                                    <h3 class="services-card__title" lang="eu">Ін'єкції<br>для обличчя</h3>
+                                    <div class="services-card__text">
+                                    </div>
+                                </article>
+                            </li>
+                            
+                            <li class="swiper-slide">
+                                <article class="services-card">
+                                    <img class="services-card__image" src="./photo/Makeup3.jpg" 
+                                        alt="Очищення обличчя" />
+                                    <h3 class="services-card__title" lang="eu">Очищення<br>обличчя</h3>
+                                    <div class="services-card__text">                                        
+                                    </div>
+                                </article>
+                            </li>
 
-                        <li class="services-items">
-                            <article class="services-card-2">
-                                <p class="services-text">Ін'єкції<br>для обличчя</p>
-                            </article>
-                        </li>
-
-                        <li class="services-items">
-                            <article class="services-card-3">
-                                <p class="services-text">Очищення<br>обличчя</p>
-                            </article>
-                        </li>
-                    </ul>
-
-                    <button class="carousel-button next" type="button" aria-label="Наступний">
-                        <svg width="32" height="32">
+                            <li class="swiper-slide">
+                                <article class="services-card">
+                                    <img class="services-card__image" src="./photo/Makeup1.jpg" alt="Маски для обличчя" />
+                                    <h3 class="services-card__title" lang="eu">Маски<br>для обличчя</h3>
+                                    <div class="services-card__text">
+                                    </div>
+                                </article>
+                            </li>
+                            
+                            <li class="swiper-slide">
+                                <article class="services-card">
+                                    <img class="services-card__image" src="./photo/Makeup2.jpg" alt="Ін'єкції для обличчя" />
+                                    <h3 class="services-card__title" lang="eu">Ін'єкції<br>для обличчя</h3>
+                                    <div class="services-card__text">
+                                    </div>
+                                </article>
+                            </li>
+                            
+                            <li class="swiper-slide">
+                                <article class="services-card">
+                                    <img class="services-card__image" src="./photo/Makeup3.jpg" alt="Очищення обличчя" />
+                                    <h3 class="services-card__title" lang="eu">Очищення<br>обличчя</h3>
+                                    <div class="services-card__text">
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <div class="pagination">
+                            <span class="pagination__button"></span>
+                            <span class="pagination__button"></span>
+                            <span class="pagination__button"></span>
+                            <span class="pagination__button"></span>
+                        </div>
+                    </div>
+                    <button class="services-section__button carousel-button prev" type="button">
+                        <svg width="16" height="16">
                             <use href="./photo/carusel-button.svg"></use>
                         </svg>
-                    </button>
+                    </button>   
                 </div>
             </div>
         </section>
@@ -313,13 +357,14 @@
     <div class="backdrop is-hidden">
         <div class="modal">
 
-            <button class="modal-button-close" type="button" aria-label="Закрити">
+            <button class="modal-btn-close" type="button" aria-label="Закрити">
                 Close
             </button>
+            <h2 class="modal_title">Замовити<br>дзвінок</h2>
 
             <form class="form modal-form" name="contact-form">
                 <h2 class="form-tittle">
-                    Запишіться <span class="where">безкоштовно</span> <br> та отримайте подарунок
+                    Запишіться <span class="accent">безкоштовно</span> <br> та отримайте подарунок
                 </h2>
 
                 <div class="moodal-div">
