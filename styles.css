@@ -733,10 +733,10 @@ a {
     height: 44px;
     padding: 0;
     fill: var(--color-brand-dark);
-    background-color: rgba(0, 0, 0, 0);
-    border-radius: 50%;
-    border: 1px solid;
-    cursor: pointer
+    background: transparent;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
 }
 
 .carousel-button:hover {
