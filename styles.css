@@ -256,7 +256,6 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto;
 }
 
 ul {
@@ -322,6 +321,12 @@ a {
     
 }
 
+.why-logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 /* nav */
 .header-nav .header-menu {
     display: flex;
