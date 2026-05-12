@@ -449,8 +449,8 @@ a {
 }
 
 .star-large {
-    top: 292px      ;
-    right: 200px;
+    top: 276px      ;
+    right: 42px;
     fill: var(--color-brand-dark);
     animation: starScale 5s ease-in-out infinite;
 }
