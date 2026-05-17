@@ -1,0 +1,123 @@
+.star,
+.star-small,
+.star-large {
+    position: absolute;
+    transform-origin: center;
+}
+
+.star {
+    top: 310px;
+    right: 450px;
+    fill: var(--color-brand-light);
+    animation: starScale 3s ease-in-out infinite;
+}
+
+.star-small {
+    top: 172px;
+    right: 1px;
+    fill: var(--color-primary-gray);
+    animation: starScale 4s ease-in-out infinite;
+}
+
+.star-large {
+    top: 276px;
+    right: 42px;
+    fill: var(--color-brand-dark);
+    animation: starScale 5s ease-in-out infinite;
+}
+
+@keyframes starScale {
+    0% {
+        transform: scale(0.5);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(0.5);
+    }
+}
+
+.wave {
+    background: url('./photo/background.png') no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-us-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 260px;
+    width: 709px;
+    align-self: flex-start;
+    margin-top: 40px;
+}
+
+.title-section {
+    font-family: "Play", system-ui, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 20px;
+    color: var(--color-brand-dark);
+}
+
+.title-section-centred {
+    text-align: center;
+    font-family: "Play", system-ui, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 48px;
+    color: var(--color-brand-dark);
+}
+
+.about-us-text {
+    margin-bottom: 16px;
+    font-size: 22px;
+    color: var(--color-brand-dark);
+}
+
+.accent {
+    color: var(--color-brand-light);
+}
+
+.accent-in-text {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* images */
+.about-images-group {
+    position: relative;
+    display: flex;
+    gap: 16px;
+    flex: 0 0 499px;
+    flex-direction: column;
+}
+
+.about-images {
+    width: 327px;
+    height: 327px;
+    object-fit: cover;
+    border-radius: 360px;
+    box-shadow: 0 4px 8px rgba(1, 28, 68, 0.08);
+}
+
+.about-images-second {
+    width: 327px;
+    height: 327px;
+    object-fit: cover;
+    border-radius: 360px;
+    box-shadow: 0 4px 8px rgba(1, 28, 68, 0.08);
+    margin-left: 176px;
+}

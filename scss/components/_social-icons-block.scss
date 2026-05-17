@@ -1,0 +1,11 @@
+.social-icons {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.social-icons svg {
+    width: 42px;
+    height: 42px;
+    fill: var(--color-primary-light);
+}

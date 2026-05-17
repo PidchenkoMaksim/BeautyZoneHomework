@@ -1,0 +1,53 @@
+.footer {
+    background-color: var(--color-brand-dark);
+    color: var(--color-primary-light);
+    padding: 56px 0;
+    background-image: url('./photo/background-footer.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer::after {
+    content: "";
+    position: absolute;
+    width: 280px;
+    height: 172px;
+    right: 0;
+    bottom: 0;
+    background-image: url("./photo/banki.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    pointer-events: none;
+}
+
+/* footer links */
+.footer-link,
+.address-link {
+    color: var(--color-primary-light);
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 8px;
+    font-style: normal;
+}
+
+.addres {
+    font-size: normal;
+    font-style: normal;
+
+}
+
+.footer-link:hover,
+.address-link:hover {
+    color: var(--color-brand-light);
+
+}

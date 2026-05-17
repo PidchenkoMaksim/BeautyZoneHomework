@@ -1,0 +1,53 @@
+.wave {
+    background-image: url(./photo/background-down.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 96px;
+    background-position: center top;
+}
+
+.why-us-container {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+    padding-bottom: 96px;
+}
+
+.items {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.section-title {
+    text-align: center;
+    justify-content: center;
+    font-size: 48px;
+    line-height: 1.5;
+}
+
+.why {
+    color: var(--color-brand-light);
+}
+
+.why-us-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+}
+
+.why-item {
+    border: 2px solid var(--color-primary-light);
+    border-radius: 32px;
+    box-shadow: 0 4px 4px 0 rgba(168, 198, 245, 0.38);
+    background-color: var(--color-primary-light);
+    text-align: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    height: 181px;
+    width: 316px;
+    justify-content: center;
+    content: center;
+}

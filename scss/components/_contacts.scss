@@ -1,0 +1,17 @@
+.find-us-container {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 56px;
+    flex-wrap: wrap;
+}
+
+.map {
+    width: 605px;
+    height: 420px;
+    border-radius: 16px;
+    flex-shrink: 0;
+    box-shadow: 0 8px 18px rgba(1, 28, 68, 0.08);
+    border: 0;
+}

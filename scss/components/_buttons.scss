@@ -1,0 +1,20 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-brand-light);
+    color: var(--color-primary-light);
+    border: 2px solid var(--color-brand-light);
+    border-radius: 32px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 14px 24px;
+    cursor: pointer;
+    transition: all .25s ease;
+}
+
+.button:hover {
+    background: transparent;
+    color: var(--color-brand-dark);
+    border-color: var(--color-brand-dark);
+}

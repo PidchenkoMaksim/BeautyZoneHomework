@@ -1,0 +1,116 @@
+@media (max-width: 1024px) {
+    .hero-title {
+        font-size: 72px;
+    }
+
+    .about-images {
+        width: 120px;
+        height: 120px;
+    }
+
+    .map {
+        width: 100%;
+        height: 360px;
+    }
+
+    .find-us-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .services-card-1,
+    .services-card-2,
+    .services-card-3 {
+        width: 300px;
+        height: 420px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        padding: 0 10px;
+    }
+
+    .header-menu {
+        gap: 14px;
+        font-size: 15px;
+    }
+
+    .hero-section {
+        padding: 120px 0 48px;
+        background-position: center 10%;
+    }
+
+    .hero-title {
+        font-size: 48px;
+    }
+
+    .about-us-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 18px;
+        padding: 36px 0;
+    }
+
+    .about-images-group {
+        justify-content: center;
+    }
+
+    .services-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .services-container {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .form {
+        width: 100%;
+        max-width: 520px;
+    }
+
+    .map {
+        height: 300px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    .hero-title {
+        font-size: 36px;
+        line-height: 1.05;
+    }
+
+    .title-section {
+        font-size: 32px;
+    }
+
+    .button {
+        padding: 12px 18px;
+        font-size: 15px;
+    }
+
+    .about-images {
+        width: 100px;
+        height: 100px;
+    }
+
+    .services-card-1,
+    .services-card-2,
+    .services-card-3 {
+        width: 100%;
+        max-width: 320px;
+        height: 380px;
+    }
+
+    .container {
+        padding: 0 12px;
+    }
+}
