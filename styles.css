@@ -377,7 +377,7 @@ a {
             rgba(255, 255, 255, 0.85) 26.08%,
             rgba(255, 255, 255, 0.19) 52.74%,
             rgba(255, 255, 255, 0) 74.46%),
-        url('./photo/background1.shape.jpg.jpg');
+        url('../photo/background1.shape.jpg.jpg');
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;

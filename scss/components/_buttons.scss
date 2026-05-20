@@ -11,10 +11,16 @@
     padding: 14px 24px;
     cursor: pointer;
     transition: all .25s ease;
+
+    &:hover {
+            background: transparent;
+            color: var(--color-brand-dark);
+            border-color: var(--color-brand-dark);
+    }
+
+        @media screen and (min-width: $bp-tablet) {
+        padding: 16px 32px;
+    }
 }
 
-.button:hover {
-    background: transparent;
-    color: var(--color-brand-dark);
-    border-color: var(--color-brand-dark);
-}
+

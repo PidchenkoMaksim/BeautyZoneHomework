@@ -18,14 +18,14 @@
     border: none;
     box-shadow: none;
     border-radius: 0;
-}
 
-.carousel-button:hover {
-    background-color: var(--color-primary-dark);
-    fill: var(--color-primary-light)
-}
+    &::hover {
+            background-color: var(--color-primary-dark);
+            fill: var(--color-primary-light)
+        }
 
-.carousel-button.next {
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg)
+                &.next {
+                    -webkit-transform: rotate(180deg);
+                    transform: rotate(180deg)
+                }
 }

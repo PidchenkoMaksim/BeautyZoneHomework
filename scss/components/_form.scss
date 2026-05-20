@@ -13,19 +13,21 @@
     background-image: url('./photo/form-back.png');
     background-position: center;
     background-size: cover;
+
+    &-tittle {
+            font-size: 20px;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 16px;
+        }
+
+        &-field {
+            margin-bottom: 12px;
+            position: relative;
+        }
 }
 
-.form-tittle {
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 16px;
-}
 
-.form-field {
-    margin-bottom: 12px;
-    position: relative;
-}
 
 .hidden {
     /* visually hidden label for accessibility */
@@ -47,17 +49,18 @@
     background: transparent;
     font-size: 14px;
     color: var(--color-primary-light);
+
+    &::placeholder {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        &:focus {
+            outline: none;
+            border-color: var(--color-brand-light);
+            box-shadow: 0 0 0 3px rgba(43, 127, 255, 0.08);
+        }
 }
 
-.input::placeholder {
-    color: rgba(255, 255, 255, 0.8);
-}
-
-.input:focus {
-    outline: none;
-    border-color: var(--color-brand-light);
-    box-shadow: 0 0 0 3px rgba(43, 127, 255, 0.08);
-}
 
 .button-form {
     display: block;
@@ -70,8 +73,8 @@
     color: var(--color-primary-gray);
     text-align: center;
     margin-top: 8px;
-}
 
-.useless-link {
-    text-decoration: underline;
+    &-link {
+            text-decoration: underline;
+        }
 }

@@ -28,26 +28,26 @@
 
 .why {
     color: var(--color-brand-light);
-}
 
-.why-us-text {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 133%;
-}
+    &-us-text {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 133%;
+        }
 
-.why-item {
-    border: 2px solid var(--color-primary-light);
-    border-radius: 32px;
-    box-shadow: 0 4px 4px 0 rgba(168, 198, 245, 0.38);
-    background-color: var(--color-primary-light);
-    text-align: center;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    height: 181px;
-    width: 316px;
-    justify-content: center;
-    content: center;
+        &-item {
+            border: 2px solid var(--color-primary-light);
+            border-radius: 32px;
+            box-shadow: 0 4px 4px 0 rgba(168, 198, 245, 0.38);
+            background-color: var(--color-primary-light);
+            text-align: center;
+            padding-left: 32px;
+            padding-right: 32px;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            height: 181px;
+            width: 316px;
+            justify-content: center;
+            content: center;
+        }
 }
