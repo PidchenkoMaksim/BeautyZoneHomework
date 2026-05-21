@@ -19,6 +19,12 @@
     box-shadow: none;
     border-radius: 0;
 
+    @media screen and (min-width: $br-tablet) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
     &::hover {
             background-color: var(--color-primary-dark);
             fill: var(--color-primary-light)

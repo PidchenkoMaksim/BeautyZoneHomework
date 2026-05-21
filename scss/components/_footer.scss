@@ -7,13 +7,31 @@
     background-position: center right;
     background-size: cover;
     position: relative;
+    @media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url('./photo/background-footer.png');
 
+
+            @media screen and (min-width: $br-tablet) {
+                    margin-top: 48px;
+                }
+            
+                @media screen and (min-width: $br-desktop) {
+                    margin-top: 96px;
+                }
+
+                
     &-container {
             display: flex;
             gap: 40px;
             align-items: flex-start;
             justify-content: space-between;
             flex-wrap: wrap;
+
+            @media screen and (min-width: $br-tablet) {
+                    padding: 56px 0;
+                }
         }
 
         &::after {
@@ -27,13 +45,22 @@
             background-repeat: no-repeat;
             background-size: contain;
             pointer-events: none;
+
+            @media screen and (min-width: $br-tablet) {
+                    content: '';
+                    width: 248px;
+                    height: 152px;
+                    background-image: url("./photo/banki.png");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
         }
-
-
-
+    }
 }
 
-
+}
 
 
 
@@ -45,6 +72,11 @@
     display: inline-block;
     margin-bottom: 8px;
     font-style: normal;
+
+    @media screen and (min-width: $br-desktop) {
+            text-align: start;
+            font-size: 16px;
+        }
 
     &:hover {
             color: var(--color-brand-light);

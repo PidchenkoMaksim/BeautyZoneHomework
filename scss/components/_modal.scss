@@ -32,6 +32,24 @@
         url(../photo/form-back.png) no-repeat center / cover,
         var(--color-brand-dark);
 
+        @media screen and (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                background-image: url(../photo/form-back.png)
+            }
+        
+            @media screen and (min-width: $br-phone) {
+                padding: 24px 96px;
+            }
+        
+            @media screen and (min-width: $br-tablet) {
+                padding: 36px 128px;
+            }
+        
+            @media screen and (min-width: $br-desktop) {
+                padding: 42px 144px;
+            }
+
         &_title {
                 margin-bottom: 8px;
                 font-size: 52px;
@@ -72,6 +90,11 @@
             color: var(--color-primary-light);
             border: 1px solid #ddd;
             align-items: center;
+
+            @media screen and (min-width: $br-tablet) {
+                    padding: 18px 32px;
+                    width: 310px;
+                }
         }
 
         &-button {

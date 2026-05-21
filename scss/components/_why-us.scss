@@ -4,6 +4,10 @@
     background-repeat: no-repeat;
     padding-top: 96px;
     background-position: center top;
+
+    @media screen and (min-width: $br-tablet) {
+            display: none;
+        }
 }
 
 .why-us-container {

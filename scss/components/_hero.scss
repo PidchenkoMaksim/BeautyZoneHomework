@@ -15,10 +15,44 @@
     background-size: cover;
     position: relative;
 
+    @media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url('../photo/background1.shape1.png');
+        }
+    
+        @media screen and (min-width: $br-phone) {
+            padding: 206px 0 206px 0;
+        }
+    
+        @media screen and (min-width: $br-tablet) {
+            padding: 146px 0 146px 0;
+            background-image: url('../photo/background1.shape.jpg.jpg');
+            background-position: top center;
+            background-size: cover;
+    
+            @media screen and (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                background-image: url('../photo/background1.shape.jpg.jpg');
+            }
+        }
+    
+        @media screen and (min-width: $br-desktop) {
+            padding: 121px 0 96px 0;
+        }
+
     &-container {
             max-width: 1240px;
             margin-left: 150px;
             margin-top: -64px;
+
+            @media screen and (min-width: $br-desktop) {
+                    max-width: 528px;
+                    margin-left: 106px;
+                    align-items: start;
+                }
+                
         }
 
         &-title {
@@ -29,6 +63,11 @@
             margin: 6px 0 18px;
             color: var(--color-brand-light);
             align-items: center;
+
+            @media screen and (min-width: $br-desktop) {
+                    font-size: 140px;
+                    margin-bottom: 40px;
+                }
         }
 }
 

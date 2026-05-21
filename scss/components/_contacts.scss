@@ -5,6 +5,15 @@
     justify-content: center;
     padding-bottom: 56px;
     flex-wrap: wrap;
+
+    @media screen and (min-width:$bp-desktop) {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 56px;
+        flex-wrap: wrap;
+    }
 }
 
 .map {
@@ -14,4 +23,14 @@
     flex-shrink: 0;
     box-shadow: 0 8px 18px rgba(1, 28, 68, 0.08);
     border: 0;
+
+    @media screen and (min-width: $br-phone) {
+            height: 356px;
+        }
+    
+        @media screen and (min-width: $br-tablet) {
+            width: 686px;
+            height: 496px;
+            border-radius: 16px;
+        }
 }
