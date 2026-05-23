@@ -148,7 +148,7 @@
     font-size: 22px;
     color: var(--color-brand-dark);
 
-    @media screen and (min-width: $br-tablet) {
+    @media screen and (min-width: $bp-tablet) {
             margin: 24px 20px 0 20px;
             font-size: 20px;
             gap: 22px;
@@ -156,7 +156,7 @@
             max-width: 536px;
         }
     
-        @media screen and (min-width: $br-desktop) {
+        @media screen and (min-width: $bp-desktop) {
             font-size: 22px;
             margin-top: 40px;
             flex-basis: calc(60% - 28px);
@@ -189,7 +189,7 @@
             border-radius: 360px;
             box-shadow: 0 4px 8px rgba(1, 28, 68, 0.08);
 
-            @media screen and (min-width: $br-desktop) {
+            @media screen and (min-width: $bp-desktop) {
                     flex-basis: 40%;
                     display: flex;
                     flex-direction: column;
@@ -206,7 +206,7 @@
             box-shadow: 0 4px 8px rgba(1, 28, 68, 0.08);
             margin-left: 176px;
 
-            @media screen and (min-width: $br-desktop) {
+            @media screen and (min-width: $bp-desktop) {
                     flex-basis: 40%;
                     display: flex;
                     flex-direction: column;

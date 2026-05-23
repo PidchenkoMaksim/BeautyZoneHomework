@@ -38,15 +38,11 @@
                 background-image: url(../photo/form-back.png)
             }
         
-            @media screen and (min-width: $br-phone) {
-                padding: 24px 96px;
-            }
-        
-            @media screen and (min-width: $br-tablet) {
+            @media screen and (min-width: $bp-tablet) {
                 padding: 36px 128px;
             }
         
-            @media screen and (min-width: $br-desktop) {
+            @media screen and (min-width: $bp-desktop) {
                 padding: 42px 144px;
             }
 
@@ -91,7 +87,7 @@
             border: 1px solid #ddd;
             align-items: center;
 
-            @media screen and (min-width: $br-tablet) {
+            @media screen and (min-width: $bp-tablet) {
                     padding: 18px 32px;
                     width: 310px;
                 }

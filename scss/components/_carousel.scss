@@ -19,7 +19,7 @@
     box-shadow: none;
     border-radius: 0;
 
-    @media screen and (min-width: $br-tablet) {
+    @media screen and (min-width: $bp-tablet) {
             display: flex;
             justify-content: center;
             align-items: center;

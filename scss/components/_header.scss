@@ -9,7 +9,7 @@
     padding: 32px 16px;
     box-shadow: 0 2px 6px rgba(1, 28, 68, 0.06);
 
-    @media screen and (min-width: $br-desktop) {
+    @media screen and (min-width: $bp-desktop) {
             background-color:rgba(255, 255, 255, 0.25);
             backdrop-filter: blur(10px);
             padding: 32px 16px;
@@ -32,12 +32,6 @@
     max-width: 100%;
     height: auto;
     display: block;
-
-    @media screen and (min-width: $br-phone) {
-            width: 74px;
-            height: 42px;
-        }
-
 }
 
 .why-logo {
@@ -55,7 +49,7 @@
     margin: 0;
     padding: 0;
 
-    @media screen and (min-width: $br-desktop) {
+    @media screen and (min-width: $bp-desktop) {
             display: flex;
             justify-content: center;
             align-items: center;
