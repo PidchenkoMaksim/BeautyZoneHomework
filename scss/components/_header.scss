@@ -9,7 +9,7 @@
     padding: 32px 16px;
     box-shadow: 0 2px 6px rgba(1, 28, 68, 0.06);
 
-    @media screen and (min-width: $bp-desktop) {
+    @media screen and (min-width: $bp-laptop) {
             background-color:rgba(255, 255, 255, 0.25);
             backdrop-filter: blur(10px);
             padding: 32px 16px;
@@ -30,7 +30,7 @@
                     fill: var(--color-brand-light);
                     justify-content: end;
         
-                    @media screen and (min-width: $bp-laptop) {
+                    @media screen and (min-width: $bp-desktop) {
                         display: none;
                     }
                 }
@@ -44,6 +44,11 @@
     max-width: 100%;
     height: auto;
     display: block;
+    @media screen and (min-width: $bp-laptop) {
+            fill: var(--color-brand-dark);
+            display: flex;
+            gap: 32px;
+        }
 }
 
 .why-logo {
@@ -54,34 +59,53 @@
 }
 
 /* nav */
-.header-nav .header-menu {
+.header-menu {
     display: flex;
     gap: 28px;
     align-items: center;
     margin: 0;
     padding: 0;
 
-    @media screen and (min-width: $bp-desktop) {
+    @media screen and (min-width: $bp-laptop) {
             display: flex;
             justify-content: center;
-            align-items: center;
-            gap: 56px;
+            gap: 54px;
+            font-size: 18px;
         }
 }
 
+.header-nav {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+    }
+
 .header-link {
     color: var(--color-brand-dark);
-    font-weight: 500;
-    font-size: 16px;
-    padding: 6px 4px;
-    transition: color .2s, transform .15s;
-
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    transition: transform 0.3s;
+    
     &:hover {
             color: var(--color-brand-light);
-            transform: translateY(-1px);
+            transform: scale(1.1);
 
             
         }
+
+                &__burger {
+                    padding-left: 0;
+                    display: block;
+                    background-color: transparent;
+        
+                    fill: var(--color-brand-light);
+                    justify-content: end;
+        
+                    @media screen and (min-width: $bp-laptop) {
+                        display: none;
+                    }
+}
 }
 
 

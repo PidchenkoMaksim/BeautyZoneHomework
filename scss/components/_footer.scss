@@ -29,8 +29,11 @@
             justify-content: space-between;
             flex-wrap: wrap;
 
-            @media screen and (min-width: $bp-tablet) {
-                    padding: 56px 0;
+            @media screen and (min-width: $bp-laptop) {
+                    text-align: left;
+                    display: flex;
+                    gap: 186px;
+                    padding: 56px;
                 }
         }
 
